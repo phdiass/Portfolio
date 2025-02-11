@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Paulo Dias</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/styles/style.css">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
     </style>
@@ -12,8 +12,9 @@
 <body>
    <header class="cabecalho">
         <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link">Home</a>
-            <a class="cabecalho__menu__link">Sobre</a>
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre</a>
+            <a class="cabecalho__menu__link" href="curriculo.html">Currículo</a>
         </nav>
    </header>
    <main class="apresentacao">
@@ -22,25 +23,25 @@
         <p class="apresentacao__conteudo__texto">Muito prazer, meu nome é Paulo Dias, sou analista e desenvolvedor Front-end em formação,
              com conhecimento em <strong class="titulo-destaque">JavaScript</strong> , <strong class="titulo-destaque">React</strong>, <strong class="titulo-destaque">Vuejs</strong>,
              <strong class="titulo-destaque">HTML</strong>, <strong class="titulo-destaque">CSS</strong>.
-             No momento sou sou aluno da <strong>Alura Escola de Tecnologia Online</strong>, e gostaria muito de uma oportunidade para me aperfeiçoar
+             No momento sou aluno da <strong>Alura Escola de Tecnologia Online</strong>, e gostaria muito de uma oportunidade para me aperfeiçoar
              e adquirir conhecimento que a experiência do dia a dia no trabalho proporciona.
              Podemos conversar?
         </p>
         <div class="apresentacao__links">
             <h2 class="apresentacao__links__subtitulo">Acesse minhas redes</h2>
-            <a class="apresentacao__links__link" href="https://www.linkedin.com/in/paulo-henrique-dias-santos-449701346/">
+            <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/paulo-henrique-dias-santos-449701346/">
                 <img src="assets/linkedin.png" width="25" height="25">
                 Linkedin</a>
-            <a class="apresentacao__links__link" href="https://github.com/phdiass">
+            <a class="apresentacao__links__navegacao" href="https://github.com/phdiass">
                 <img src="assets/githubpng.png" width="25" height="25">
                 Github</a>    
-            <a class="apresentacao__links__link" href="https://wa.me/+5534999653432">
+            <a class="apresentacao__links__navegacao" href="https://wa.me/+5534999653432">
                 <img src="assets/whatsapp.png" width="25" height="25">
                 Whatsapp</a>
         </div>
     </section>
 
-    <img src="assets/paulo.png" alt="Foto do Paulo Dias" width="350" height="450">
+    <img class="apresentacao__imagem" src="assets/paulo.png" alt="Foto do Paulo Dias" >
    </main>
    <footer>
     <p class="rodape">Em desenvolvimento por Paulo Dias</p>
