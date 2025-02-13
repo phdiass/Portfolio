@@ -59,7 +59,7 @@ body {
   width: 60%;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 50px;
 }
 
 .apresentacao__conteudo__titulo {
@@ -104,7 +104,7 @@ body {
   text-align: center;
   border-radius: 16px;
   font-size: 0.93rem;
-  padding: 21.5px;
+  padding: 3%;
   text-decoration: none;
   color: var(--cor-secundaria);
   font-family: var(--fonte-primaria);
@@ -118,7 +118,7 @@ body {
 }
 
 .apresentacao__imagem {
-  width: 30%;
+  width: 35%;
 }
 
 .rodape {
@@ -126,10 +126,8 @@ body {
   color: var(--cor-primaria);
   text-align: center;
   background-color: var(--cor-terciaria);
-  padding: 24px;
-  height: 18px;
   font-size: 1.5rem;
-  font-weight: 500;
+  
 }
 
 .apresentacao__about {
@@ -168,10 +166,8 @@ body {
   color: var(--cor-primaria);
   text-align: center;
   background-color: var(--cor-terciaria);
-  padding: 24px;
-  height: 18px;
   font-size: 1.5rem;
-  font-weight: 500;
+  
   }
 
   @media (max-width: 1200px) {
@@ -181,6 +177,9 @@ body {
     
     .cabecalho__menu {
       justify-content: center;
+      width: auto;
+      gap: 70px;
+
     }
   
     .apresentacao {
