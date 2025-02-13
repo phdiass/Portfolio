@@ -144,11 +144,14 @@ body {
     padding: 1.4% 0% 20% 0%;
   }
 
-  
-  }
   .apresentacao__conteudo {
     width: auto;
-    
+    padding-left: 1.4%;
+    padding-right: 1.4%;
   }
 
+  .apresentacao__imagem {
+    width: 32%;
+  }
+}
   
