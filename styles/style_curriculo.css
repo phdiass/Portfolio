@@ -89,7 +89,6 @@ body {
   font-style: normal;
   list-style-type: disc;
   
-  
 }
 
 .cursos__alura {
@@ -136,16 +135,20 @@ body {
 
   .cabecalho__menu {
     justify-content: center;
+    width: auto;
+    gap: 70px;
   }
-
 
   .apresentacao {
     flex-direction: column-reverse;
-    padding: 5%;
+    padding: 1.4% 0% 20% 0%;
   }
 
+  
+  }
   .apresentacao__conteudo {
     width: auto;
+    
   }
-}
 
+  
