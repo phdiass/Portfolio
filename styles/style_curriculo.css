@@ -141,7 +141,7 @@ body {
 
   .apresentacao {
     flex-direction: column-reverse;
-    padding: 1.4% 0% 20% 0%;
+    padding: 5% 0% 20% 0%;
   }
 
   .apresentacao__conteudo {
@@ -151,7 +151,7 @@ body {
   }
 
   .apresentacao__imagem {
-    width: 32%;
+    width: 31.6%;
   }
 }
   
