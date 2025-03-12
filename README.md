@@ -28,6 +28,19 @@ Este projeto é um Portfólio Pessoal desenvolvido para apresentar meus trabalho
 
 <br>
 
+## 📱 Layout Responsivo
+
+<p align="center">
+  <img src="https://img.icons8.com/ios-filled/50/000000/smartphone.png" alt="Smartphone" width="40" height="40"/>
+  <img src="https://img.icons8.com/ios-filled/50/000000/ipad.png" alt="Tablet" width="40" height="40"/>
+  <img src="https://img.icons8.com/ios-filled/50/000000/laptop.png" alt="Laptop" width="40" height="40"/>
+  <img src="https://img.icons8.com/ios-filled/50/000000/tv.png" alt="TV" width="40" height="40"/>
+</p>
+
+O projeto se adapta automaticamente a diferentes tamanhos de tela, proporcionando uma experiência fluida em **smartphones, tablets, laptops e TVs**.
+
+<br>
+
 ## 🎓 Agradecimentos
 
 Este projeto foi desenvolvido com o apoio da [Alura](https://www.alura.com.br) e dos professores:
